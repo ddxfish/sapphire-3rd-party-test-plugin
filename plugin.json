@@ -1,0 +1,15 @@
+{
+  "name": "hello-sapphire",
+  "version": "1.0.0",
+  "description": "Third-party signing test — Krem's Evil Twin says hello",
+  "author": "Krem's Evil Twin",
+  "url": "https://github.com/ddxfish/sapphire-3rd-party-test-plugin",
+  "icon": "👯",
+  "priority": 90,
+  "default_enabled": false,
+  "capabilities": {
+    "hooks": {
+      "post_chat": "hooks/hello.py"
+    }
+  }
+}
